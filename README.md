@@ -2,10 +2,12 @@
 
 A boilerplate using [React Styleguidist]{:target="_blank"}  to running a simple component styleguide with all components and available for some application with symlinks.
 
-- [ ] [React Styleguidist](https://react-styleguidist.js.org/){:target="_blank"} 
+- [ ] <a href="https://react-styleguidist.js.org/" target="_blank">React Styleguidist</a> 
 - [ ] [Ant-Design]()
 - [ ] ESLint (Airbnb)
-- [ ] JSS 
+- [ ] JSS ,
+
+[a link](http://example.com){:target="_blank" rel="nofollow" title="a link with more attributes" class="some-class"} that opens in a new window.
 
 // DOING
 - [ ] Babel
