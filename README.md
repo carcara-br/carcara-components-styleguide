@@ -1,24 +1,22 @@
-# carcara-styleguide-stack
-A boilerplate to running a styleguide with components and available for some application .
+# carcara-components-styleguide-stack
 
-// TODO
-- [ ] Ant-Design
-- [ ] Babel
+A boilerplate using [React Styleguidist](https://react-styleguidist.js.org/){:target="_blank"}  to running a simple component styleguide with all components and available for some application with symlinks.
+
+- [ ] React Styleguidist
+- [ ] [Ant-Design]()
 - [ ] ESLint (Airbnb)
+- [ ] JSS 
+
+// DOING
+- [ ] Babel
 - [ ] SASS
-- [ ] JSS
 - [ ] stylelint
 - [ ] PostCSS
 - [ ] React
-- [ ] React Router
-- [ ] React Router Redux
-- [ ] Redux
-- [ ] Redux Actions
-- [ ] Redux Saga
 
 ## Getting Started
 
-// TODO
+// DOING
 ### Installation
 
 First of all, install the dependencies to run this boilerplate.
@@ -34,34 +32,28 @@ $ cd [name_of_project]
 $ npm install
 
 ```
+#### NPM
 
-// TODO
-### Folders and Files
+> `npm install --save quran-components`
 
-```sh
-├── README.md
-├── build
-│   ├── css
-│   │   └── style.css
-│   ├── img 
-│   ├── index.html
-│   └── js
-│       └── main.js
-├── gulpfile.babel.js
-├── package.json
-└── src
-    ├── img 
-    ├── js 
-    ├── styl
-    │   ├── _core/*.styl
-    │   ├── atoms/*.styl
-    │   ├── molecules/*.styl
-    │   ├── organisms/*.styl
-    │   ├── widgets/*.styl 
-    │   ├── pages/*.styl 
-    │   └── style.styl
-    └── jade
-        └── index.jade
+#### YARN
+
+> `yarn add quran-components`
+
+## Usage
+
+#### ES6
+
+```js 
+import React from 'React';
+import { Button, Jumbotron } from 'quran-components';
+
+const CustomBody = () => (
+  <div>
+    <Button />
+    <Jumbotron />
+  </div>
+);
 ```
 
 ## Credits
