@@ -1,8 +1,8 @@
 # carcara-components-styleguide-stack
 
-A boilerplate using [React Styleguidist](https://react-styleguidist.js.org/){:target="_blank"}  to running a simple component styleguide with all components and available for some application with symlinks.
+A boilerplate using [React Styleguidist]{:target="_blank"}  to running a simple component styleguide with all components and available for some application with symlinks.
 
-- [ ] React Styleguidist
+- [ ] [React Styleguidist](https://react-styleguidist.js.org/){:target="_blank"} 
 - [ ] [Ant-Design]()
 - [ ] ESLint (Airbnb)
 - [ ] JSS 
